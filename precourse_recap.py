@@ -1,8 +1,10 @@
+#This is a comment.
+
 my_first_string = 'Hello There'
 my_first_integer = 95
 my_first_float = 3.14
 my_first_boolean = False
-my_first_list = list['red', 'blue', 'green']
+my_first_list = ['red', 'blue', 'green']
 
 def working_with_numbers():
     print(my_first_integer + my_first_float)
@@ -21,4 +23,6 @@ if my_first_boolean == True:
 else:
     print('The Boolean is False')
 
+for x in my_first_list:
+    print(x)
 
