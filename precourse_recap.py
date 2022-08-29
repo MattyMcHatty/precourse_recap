@@ -26,3 +26,6 @@ else:
 for x in my_first_list:
     print(x)
 
+while my_first_integer > 90:
+    print(my_first_integer)
+    my_first_integer -= 1
